@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content=" Tania Gabriel García">
+    <meta name="description" content="Portafolio de desarrollo web de Tania Gabriel García">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Tania Gabriel García | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://lh3.googleusercontent.com/VkVuinK9A6z1dF__msQUTMOmnW3OwpNx46sQJT4e24x-q30M_A7PFUSWGf6cClL0VOqE7gyf79jcTZvkt5Pgt35_rpz7C6Voe-DlB7Rh" alt="Foto de Tania">
+        <h1>Hola, Tania Gabriel García</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Tania Gabriel García</h2>
+        <p class="seccion-texto"> Soy estudiante y actualmente me encuentro cursando el programa de Tecnolochicas Pro, soy competitiva, responsable, amable, puntual etc.  </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p> Hicimos paginas web,paginas de estilo con css y hicimos la estructura de html. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+            </div>
+          </div>
+        
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p> Estudiante de Tecnolochicas Pro. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://lh3.googleusercontent.com/wV0GxxGDDK8cszW0FWItD9EzKcR2JndpkyOAfEv1dcEpBsHscB-6eA4kmfDKft3JkPOBOqLD59R9hFfy6gI5MZI6x5n7iuj_8_20FRfKAw" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcaNRMlT-SKEIJbuupVV3RzrII4R2d014kYvkhaxBkuw&s" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="data:image/jpeg;base64,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" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://www.questionpro.com/qp_userimages/sub-9/5310356/32080021_2001255793535615_8694945979746484224_n-845x684.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+ 
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Este es uno de los  testimonios de mi compañera...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://lh3.googleusercontent.com/G_4SJQMmpUBoCGe3MJJGSC9DEzrnU0mjpE_rUt404FMx7ziDdB5EX1LJr25NoqCE5zK-GaqgZcKa-6d3d8-GGvKCDsUQKxpIz-S-bg82Eg" alt="  Foto de Thalia">
+              <p class="testimonio-texto">Es diciplinada , puntual y una buena estudiante</p>
+              <div class="testimonio-info">
+                <p class="cliente">Thalia</p>
+                <p class="cargo">Estudiante del programa de tecnolochicas</p>
+              </div>
+            </div>
+          </div>
+        
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="taniagabriel063@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/melty0704" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="taniagabriel063@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Tania Gabriel García (2023) &#169;</div>
+    </footer>
+
+    <script src="https://github.com/" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://www.linkedin.com/feed/?doFeedRefresh=true&nis=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BlhEdOJiPRoe0B5RT4U4HwA%3D%3D"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
